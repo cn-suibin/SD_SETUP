@@ -16,7 +16,7 @@ else
 fi
 # 安装docker
 yum install -y epel-release
-yum install docker-io # 安装docker
+yum install -y docker-io # 安装docker
 # 配置文件 /etc/sysconfig/docker
 
 chkconfig docker on  # 加入开机启动
