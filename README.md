@@ -8,7 +8,7 @@ swooledistributed框架依赖环境一键安装包
 运行
 ./install.sh
 
-# 包含依赖包：
+# 一键包含依赖包：
 
 php7.1.1
 
@@ -22,6 +22,8 @@ phpredis
 
 swoole1.9
 
+# 手动安装：
+
 redis3.2.7 自行安装
 
-swooledistributed 自行安装(https://github.com/tmtbe/SwooleDistributed)
+swooledistributed 自行下载安装(https://github.com/tmtbe/SwooleDistributed)
