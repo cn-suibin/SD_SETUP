@@ -59,6 +59,7 @@ then
 echo "is exist!"
 else
     echo "export PATH=/usr/local/php7/bin:/usr/local/php7/sbin:$PATH" >>/etc/profile
+    source /etc/profile
 fi
 
 cd ..
