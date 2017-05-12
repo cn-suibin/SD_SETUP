@@ -52,6 +52,15 @@ cd php-7.1.1
 make -j2 && make install -j2
 cp php.ini-production /usr/local/php7/etc/php.ini
 
+new_export="export PATH=/usr/local/php7/bin:/usr/local/php7/sbin:$PATH"
+reg_str="^\s*export PATH=/usr/local/php7/bin:/usr/local/php7/sbin:$PATH"
+if grep -q $reg_str /etc/profile
+then
+echo "is exist!"
+else
+    echo "export PATH=/usr/local/php7/bin:/usr/local/php7/sbin:$PATH" >>/etc/profile
+fi
+
 cd ..
 tar -xvf phpredis.gz
 cd phpredis
