@@ -54,7 +54,7 @@ cp php.ini-production /usr/local/php7/etc/php.ini
 cd ..
 tar -xvf phpredis.gz
 cd phpredis
-./configure
+./configure --with-php-config=/usr/local/php7/bin/php-config
 sudo make -j
 sudo make install
 new_export="extension=redis.so"
