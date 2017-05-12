@@ -10,4 +10,14 @@ swooledistributed框架依赖环境一键安装包
 
 # 包含依赖包：
 
-#  php7.1
+php7.1.1
+
+hiredis-0.13.3
+
+inotify-2.0.0
+
+jemalloc-4.0.4
+
+phpredis
+
+swoole1.9
