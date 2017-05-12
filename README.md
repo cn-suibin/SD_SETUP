@@ -22,6 +22,6 @@ phpredis
 
 swoole1.9
 
-redis 自行安装
+redis3.2.7 自行安装
 
 swooledistributed 自行安装(https://github.com/tmtbe/SwooleDistributed)
