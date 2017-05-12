@@ -1,5 +1,5 @@
 #!/bin/bash
-yum install libxml2-devel libcurl-devel libjpeg-devel libpng-devel freetype-devel libmcrypt-devel -y
+yum install libxml2-devel libcurl-devel libjpeg-devel libpng-devel freetype-devel libmcrypt-devel openssl openssl-devel -y
 tar -xvf php7.1.gz
 cd php-7.1.1
 ./configure \
