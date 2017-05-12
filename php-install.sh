@@ -51,10 +51,11 @@ cd php-7.1.1
 --disable-fileinfo
 make -j2 && make install -j2
 cp php.ini-production /usr/local/php7/etc/php.ini
+
 cd ..
 tar -xvf phpredis.gz
 cd phpredis
-./configure --with-php-config=/usr/local/php7/bin/php-config
+./configure 
 sudo make -j
 sudo make install
 new_export="extension=redis.so"
